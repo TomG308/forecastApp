@@ -1,0 +1,24 @@
+{
+  "name": "forecast-app",
+  "version": "1.0.0",
+  "description": "financial forecasting app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "forecast-app"
+  },
+  "author": "Thomas Gutierrez, Clint Wall",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.5",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.18.3"
+  }
+}
